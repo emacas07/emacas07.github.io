@@ -300,7 +300,7 @@ html[dir=rtl] .app__logo-wrapper {
   padding-left: 0;
 }
 .footer__link {
-  margin-left: 32px;
+  margin-right: 32px;
 }
 @media (max-width: 768px) {
   .footer__link {
