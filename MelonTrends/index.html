@@ -5,6 +5,7 @@
 		<title>Melon Trends</title>
 		<link rel="stylesheet" href="assets/style.css" />
 		<link rel="icon" href="assets/favicon.ico">
+		<link rel="stylesheet" href="assets/tobi.css" />
 	</head>
 	<body>
 		<main>
@@ -36,7 +37,7 @@
 								alt="Get on Google Play"
 							/>
 						</a>
-						<a
+						<!-- <a
 							href="https://www.apple.com/ios/app-store/"
 							class="app__button-ios"
 							target="_blank"
@@ -46,7 +47,7 @@
 								src="assets/ios-badge.svg"
 								alt="Get on Appstore"
 							/>
-						</a>
+						</a> -->
 					</div>
 				</div>
 			</header>
@@ -164,5 +165,11 @@
 				</div>
 			</div>
 		</footer>
+		<script type="text/javascript" src="assets/tobi.min.js" /></script>
+		<script>
+			window.onload = function () {
+				var tobi = new Tobi();
+			};
+		</script>
 	</body>
 </html>

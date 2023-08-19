@@ -150,9 +150,11 @@ html[dir=rtl] .app__logo-wrapper {
   mask-size: cover;
   width: 100%;
   height: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
 }
 .app__logo:hover {
-  box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
   transform: scale(1.05);
 }
 .app__name {
